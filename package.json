@@ -1,0 +1,9 @@
+{
+  "name": "abhay-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Abhay's B.Tech CSE (AI & ML) portfolio",
+  "scripts": {
+    "start": "node server.cjs"
+  }
+}

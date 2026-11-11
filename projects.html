@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects — Abhay</title>
+    <meta name="description" content="AI/ML projects, Python tools, and experiments by Abhay, B.Tech CSE (AI & ML) student.">
+    <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0e0e10" media="(prefers-color-scheme: dark)">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="preload" href="assets/fonts/inter-tight-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body class="subpage">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <svg class="sprite" aria-hidden="true">
+        <symbol id="logo-mark" viewBox="0 0 616.2 312.67">
+            <text class="wordmark" x="30" y="236" textLength="505" lengthAdjust="spacingAndGlyphs">Abhay</text>
+            <circle class="wordmark__dot" style="fill: var(--color--dot)" cx="545" cy="279.53" r="26"/>
+        </symbol>
+    </svg>
+
+    <header class="nav">
+        <nav class="nav__inner" aria-label="Main">
+            <a class="nav__logo logo" href="index.html" aria-label="Abhay, back to home">
+                <svg class="logo__svg" aria-hidden="true"><use href="#logo-mark"/></svg>
+            </a>
+            <div class="nav__links" id="nav-links" popover>
+                <a class="nav__link" href="index.html#about">About</a>
+                <a class="nav__link" href="projects.html" aria-current="page">Projects</a>
+                <a class="nav__link" href="skills.html">Skills</a>
+                <a class="nav__menu-cta button button--small" href="index.html#contact">Let's talk</a>
+            </div>
+            <a class="nav__cta button button--small" href="index.html#contact">Let's talk</a>
+            <button class="nav__toggle" type="button" popovertarget="nav-links" aria-label="Menu" aria-expanded="false">
+                <span class="nav__toggle-icon" aria-hidden="true"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="page" id="main">
+        <header class="page__head">
+            <p class="page__kicker pixel">Projects</p>
+            <h1 class="page__title">Things I've <em>built</em>.</h1>
+            <p class="page__lead">AI/ML experiments, Python tools, and personal projects. Each one taught me something new about intelligent systems.</p>
+        </header>
+
+        <div class="page__body">
+            <section class="page__section" aria-label="AI/ML Projects">
+                <div class="project-card">
+                    <div class="project-card__meta">
+                        <span class="project-card__tag pixel">AI/ML</span>
+                        <span class="project-card__year">2024</span>
+                    </div>
+                    <h2 class="project-card__title">Handwritten Digit Recognition</h2>
+                    <p class="project-card__text">CNN-based model using TensorFlow to recognize handwritten digits (MNIST). Achieved 98%+ accuracy with data augmentation and dropout regularization.</p>
+                    <div class="project-card__tech">
+                        <span class="pixel">Python</span>
+                        <span class="pixel">TensorFlow</span>
+                        <span class="pixel">CNN</span>
+                        <span class="pixel">MNIST</span>
+                    </div>
+                    <a class="project-card__link button button--small" href="#" target="_blank" rel="noopener">View Code <span class="button__arrow" aria-hidden="true">↗</span></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card__meta">
+                        <span class="project-card__tag pixel">AI/ML</span>
+                        <span class="project-card__year">2024</span>
+                    </div>
+                    <h2 class="project-card__title">Sentiment Analysis</h2>
+                    <p class="project-card__text">NLP model that classifies movie reviews as positive or negative using LSTM networks. Trained on IMDB dataset with word embeddings.</p>
+                    <div class="project-card__tech">
+                        <span class="pixel">Python</span>
+                        <span class="pixel">PyTorch</span>
+                        <span class="pixel">LSTM</span>
+                        <span class="pixel">NLP</span>
+                    </div>
+                    <a class="project-card__link button button--small" href="#" target="_blank" rel="noopener">View Code <span class="button__arrow" aria-hidden="true">↗</span></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card__meta">
+                        <span class="project-card__tag pixel">AI/ML</span>
+                        <span class="project-card__year">2024</span>
+                    </div>
+                    <h2 class="project-card__title">House Price Predictor</h2>
+                    <p class="project-card__text">Regression model using scikit-learn to predict housing prices based on features like location, size, and amenities. Includes feature engineering and hyperparameter tuning.</p>
+                    <div class="project-card__tech">
+                        <span class="pixel">Python</span>
+                        <span class="pixel">scikit-learn</span>
+                        <span class="pixel">Regression</span>
+                        <span class="pixel">Pandas</span>
+                    </div>
+                    <a class="project-card__link button button--small" href="#" target="_blank" rel="noopener">View Code <span class="button__arrow" aria-hidden="true">↗</span></a>
+                </div>
+            </section>
+
+            <section class="page__section" aria-label="Python Tools">
+                <div class="project-card">
+                    <div class="project-card__meta">
+                        <span class="project-card__tag pixel">Python</span>
+                        <span class="project-card__year">2024</span>
+                    </div>
+                    <h2 class="project-card__title">Data Preprocessing Pipeline</h2>
+                    <p class="project-card__text">Automated data cleaning and preprocessing pipeline for ML models. Handles missing values, outliers, normalization, and train-test splitting.</p>
+                    <div class="project-card__tech">
+                        <span class="pixel">Python</span>
+                        <span class="pixel">Pandas</span>
+                        <span class="pixel">NumPy</span>
+                        <span class="pixel">scikit-learn</span>
+                    </div>
+                    <a class="project-card__link button button--small" href="#" target="_blank" rel="noopener">View Code <span class="button__arrow" aria-hidden="true">↗</span></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card__meta">
+                        <span class="project-card__tag pixel">Python</span>
+                        <span class="project-card__year">2024</span>
+                    </div>
+                    <h2 class="project-card__title">CSV to ML-Ready Converter</h2>
+                    <p class="project-card__text">CLI tool that converts raw CSV datasets into ML-ready formats with encoding, scaling, and feature selection. Supports multiple output formats.</p>
+                    <div class="project-card__tech">
+                        <span class="pixel">Python</span>
+                        <span class="pixel">CLI</span>
+                        <span class="pixel">argparse</span>
+                    </div>
+                    <a class="project-card__link button button--small" href="#" target="_blank" rel="noopener">View Code <span class="button__arrow" aria-hidden="true">↗</span></a>
+                </div>
+            </section>
+
+            <section class="page__section" aria-label="Experiments">
+                <div class="project-card">
+                    <div class="project-card__meta">
+                        <span class="project-card__tag pixel">Experiment</span>
+                        <span class="project-card__year">2024</span>
+                    </div>
+                    <h2 class="project-card__title">Neural Network from Scratch</h2>
+                    <p class="project-card__text">Built a fully connected neural network using only NumPy — no deep learning frameworks. Implements forward propagation, backpropagation, and gradient descent.</p>
+                    <div class="project-card__tech">
+                        <span class="pixel">Python</span>
+                        <span class="pixel">NumPy</span>
+                        <span class="pixel">Math</span>
+                    </div>
+                    <a class="project-card__link button button--small" href="#" target="_blank" rel="noopener">View Code <span class="button__arrow" aria-hidden="true">↗</span></a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-card__meta">
+                        <span class="project-card__tag pixel">Experiment</span>
+                        <span class="project-card__year">2024</span>
+                    </div>
+                    <h2 class="project-card__title">Image Classifier (CIFAR-10)</h2>
+                    <p class="project-card__text">Transfer learning model using MobileNetV2 to classify images into 10 categories from the CIFAR-10 dataset. Fine-tuned for better accuracy.</p>
+                    <div class="project-card__tech">
+                        <span class="pixel">Python</span>
+                        <span class="pixel">TensorFlow</span>
+                        <span class="pixel">Transfer Learning</span>
+                        <span class="pixel">Computer Vision</span>
+                    </div>
+                    <a class="project-card__link button button--small" href="#" target="_blank" rel="noopener">View Code <span class="button__arrow" aria-hidden="true">↗</span></a>
+                </div>
+            </section>
+        </div>
+
+        <section class="page-cta">
+            <p class="pixel" style="color: var(--text-light)">Press start</p>
+            <h2 class="page-cta__title">Want to <em>collaborate</em>?</h2>
+            <a class="page-cta__mail" href="mailto:officialabhaymaurya@gmail.com">officialabhaymaurya@gmail.com</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__brand">
+            <a class="footer__logo logo" href="index.html" aria-label="Abhay, back to home">
+                <svg class="logo__svg" aria-hidden="true"><use href="#logo-mark"/></svg>
+            </a>
+            <a class="footer__lab pixel" href="https://github.com/Abhay-Codez" target="_blank" rel="noopener">GitHub<span class="visually-hidden"> (opens in a new tab)</span></a>
+            <a class="footer__lab pixel" href="https://www.linkedin.com/in/abhay-maurya-b479a044a/" target="_blank" rel="noopener">LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a>
+            <a class="footer__hint pixel" href="index.html#play">↑↑↓↓←→←→BA</a>
+        </div>
+        <address class="footer__legal">
+            <span>Abhay</span>
+            <span>B.Tech CSE (AI & ML), RR Group of Institutions, Lucknow</span>
+            <a class="footer__link" href="mailto:officialabhaymaurya@gmail.com">officialabhaymaurya@gmail.com</a>
+            <a class="footer__link" href="skills.html">Skills</a>
+        </address>
+    </footer>
+
+    <div class="dot" aria-hidden="true" data-hidden><span class="dot__body"></span></div>
+    <div class="dot-sparks" aria-hidden="true"></div>
+    <script src="js/main.js?v=2"></script>
+</body>
+</html>
