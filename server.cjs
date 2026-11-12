@@ -1,4 +1,4 @@
-/* Tiny zero-dependency static server for the SoBra clone.
+/* Tiny zero-dependency static server for Abhay's portfolio.
    Listens on loopback only, for both localhost (IPv6) and 127.0.0.1 (IPv4). */
 const http = require("http");
 const fs = require("fs");
@@ -63,4 +63,4 @@ const listen = (host, label, ipv6Only = false) => {
 
 listen("127.0.0.1", `http://127.0.0.1:${port}/`);
 listen("::1", `http://[::1]:${port}/`, true);
-console.log(`SoBra clone running at http://localhost:${port}/`);
+console.log(`Portfolio running at http://localhost:${port}/`);
