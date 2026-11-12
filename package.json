@@ -2,8 +2,19 @@
   "name": "abhay-portfolio",
   "version": "1.0.0",
   "private": true,
-  "description": "Abhay's B.Tech CSE (AI & ML) portfolio",
+  "description": "Abhay's B.Tech CSE (AI & ML) portfolio — zero-framework, vanilla HTML/CSS/JS",
   "scripts": {
-    "start": "node server.cjs"
-  }
+    "start": "node server.cjs",
+    "sync-logo": "node fix-wordmark.cjs",
+    "lint": "echo \"No linter configured — vanilla JS/CSS/HTML\" && exit 0"
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "ml",
+    "vanilla-js",
+    "zero-framework"
+  ],
+  "author": "Abhay Maurya <officialabhaymaurya@gmail.com>",
+  "license": "MIT"
 }
